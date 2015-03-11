@@ -1,0 +1,34 @@
+/*! Dstyle RESET CSS ver 20150311 */
+/* create by won yong bong (A.K.A dstyle) | License: none (public domain) |  */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button{margin:0;padding:0}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+audio, canvas, progress, video {display: inline-block;}
+dl,ul,ol,menu,li{list-style:none}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;} 
+dt{display:block;}
+a{cursor:pointer;}
+hr{display:none;} 
+button::-moz-focus-inner, input::-moz-focus-inner {border: 0;padding: 0;}
+
+/* Web Content Accessibility TTS(Text To Speech) Code */
+caption,legend{position: absolute;width: 1px;height: 1px;margin: -1px;padding: 0;overflow: hidden;clip: rect(0,0,0,0);border: 0;}
+.tts,.sr-only{position: absolute;width: 1px;height: 1px;margin: -1px;padding: 0;overflow: hidden;clip: rect(0,0,0,0);border: 0;}
+
+/* clearFix */
+.clearfix:after {content: ".";display: block;height: 0;overflow: hidden;clear: both;}
+* html .clearfix {height: 1%}
+
+/* Text-Overflow */
+.text-overflow {overflow: hidden;text-overflow: ellipsis;white-space: nowrap;zoom: 1}
+a.text-overflow, span.text-overflow {display: inline-block;max-width:97%;}
+
+
+/* add Project Leaders Common CSS */
+body,input,select,textarea{font:12px/1.5 '돋움';color:#000;} /* font Setup Code */
+a{color:#000;text-decoration:none;} /* anchor (normal) Setup Code */ 
+a:hover{color:#000;text-decoration:underline;} /* anchor (mouse over) Setup Code */
+input.text{padding:2px;height:18px;border:1px solid #000;} /* input:text Setup Code */
+select.select{height:22px;border:1px solid #000;} /* select element Setup Code */
+textarea.textarea{width:98%;border:1px solid #000;} /* textarea.textarea Setup Code */
